@@ -152,6 +152,7 @@ public:
 int __tmain( )
 {
     ListNode list[4];
+    //create a listnode, value + node pointed to the address of next value
     list[0].val = 1;
     list[0].next = &list[1];
     list[1].val = 2;
