@@ -169,7 +169,7 @@ public:
 
 int __tmain( )
 {
-    char str[10 + 1] = "a b c d";
+    char str[20 + 1] = "a b c d";//arrary size too small and later opeation will exceed boundary
 
     Solution solu;
     solu.replaceSpace(str, 10);
